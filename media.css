@@ -1,0 +1,12 @@
+@media screen and (max-width: 720px) {
+  .icon {
+    display: block;
+    
+  }
+  .sidebar{
+    display: none;
+  }
+  
+
+
+}
