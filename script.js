@@ -1,12 +1,10 @@
-let menu = document.querySelector(".menu");
+let icon = document.querySelector(".icon");
 let sidebar = document.querySelector(".sidebar");
 
-
-menu.addEventListener("click", () => {
-  
-  sidebar.classList.add("sidebarR");
-  sidebar.classList.toggle("sidebarR");
-  
-  
- 
+icon.addEventListener("click", () => {
+  if (sidebar.classList.contains("sidebar")) {
+    sidebar.classList.replace("sidebar", "sidebarR");
+  } else {
+    sidebar.classList.replace("sidebarR", "sidebar");
+  }
 });
